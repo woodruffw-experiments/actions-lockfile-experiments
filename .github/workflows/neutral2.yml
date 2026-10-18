@@ -1,6 +1,6 @@
 # a workflow that has nothing wrong with it.
 
-name: neutral
+name: neutral2
 
 on: [push, pull_request]
 
