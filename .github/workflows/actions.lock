@@ -8,6 +8,6 @@ workflows:
 dependencies:
     'actions/checkout@v7.0.1':
         ref: 'v7.0.1'
-        commit: 'sha1-3d3c42e5aac5ba805825da76410c181273ba90b1'
+        commit: 'sha1-c7d749a2d57b4b375d1ebcd17cfbfb60c676f18e'
         owner_id: 44036562
         repo_id: 197814629
