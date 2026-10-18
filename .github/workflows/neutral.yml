@@ -13,6 +13,7 @@ permissions: {}
 jobs:
   reuse:
     uses: woodruffw-experiments/reusable-workflow/.github/workflows/reusable.yml@v0.0.1
+    permissions: {}
   neutral:
     name: neutral
     runs-on: ubuntu-latest
