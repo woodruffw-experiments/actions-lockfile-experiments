@@ -1,0 +1,20 @@
+# a workflow that has nothing wrong with it.
+
+name: neutral2
+
+on: [push, pull_request]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  neutral:
+    name: neutral
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6.0.0
+      - name: neutral
+        run: echo "This workflow has nothing wrong with it."
