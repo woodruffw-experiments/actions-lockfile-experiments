@@ -11,6 +11,8 @@ concurrency:
 permissions: {}
 
 jobs:
+  reuse:
+    uses: woodruffw-experiments/reusable-workflow/.github/workflows/reusable.yml@v0.0.1
   neutral:
     name: neutral
     runs-on: ubuntu-latest
